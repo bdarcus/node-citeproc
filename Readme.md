@@ -8,9 +8,9 @@
 This is non-functional ATM. What we need is to be able to do something like:
 
     var citeproc = require('citeproc');
-    var style = 'http://citationstyles.org/styles/apa.csl'
+    var style = 'http://citationstyles.org/styles/apa.csl';
     var citeproc = new citeproc.CSL.Engine(bibdata, 'en', style );
-    console.log(citeproc.makeBibliography())
+    console.log(citeproc.makeBibliography());
 
 The library should be usuable for both local (including CLI) apps, as well 
 as web apps and services.
